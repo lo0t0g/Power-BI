@@ -6,7 +6,7 @@ DIVIDENDOS:
 DIVIDENDOS COBBRADOS EN DAX:
 
 DIVIDENDOS COBRADOS MEJORA DE GRANULARIDAD DEFINITIVO = 
-
+```
 --VAR FechaSeleccionada = SELECTEDVALUE('CALENDARIO'[Date])
 --VAR TrimestreSeleccionado = SELECTEDVALUE('CALENDARIO'[AñoTrimestre])
 
@@ -170,3 +170,4 @@ RETURN
         NOT(ISBLANK(TrimestreSeleccionado)), CalculoDividendosCobradosTrimestre,
         0
     )
+```
