@@ -1,6 +1,6 @@
 DIVIDENDOS DIAGRAMA SENCILLO:
 
-
+![Documentación de parte del proceso T-SQL](DIAGRAMA_SENCILLO_DIVIDENDOS.png)
 
 
 DIVIDENDOS COBBRADOS EN DAX que permite filtrar por Año/Trimestre, Fecha seleccionada concreta y Rango de Fechas, mejorando así la granularidad de la medida:
