@@ -1,12 +1,13 @@
-DIVIDENDOS:
+DIVIDENDOS DIAGRAMA SENCILLO:
 
 
 
 
-DIVIDENDOS COBBRADOS EN DAX:
+DIVIDENDOS COBBRADOS EN DAX que permite filtrar por Año/Trimestre, Fecha seleccionada concreta y Rango de Fechas, mejorando así la granularidad de la medida:
 
-DIVIDENDOS COBRADOS MEJORA DE GRANULARIDAD DEFINITIVO = 
 ```
+DIVIDENDOS COBRADOS MEJORA DE GRANULARIDAD DEFINITIVO = 
+
 --VAR FechaSeleccionada = SELECTEDVALUE('CALENDARIO'[Date])
 --VAR TrimestreSeleccionado = SELECTEDVALUE('CALENDARIO'[AñoTrimestre])
 
